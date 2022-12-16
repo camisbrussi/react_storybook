@@ -16,9 +16,9 @@ module.exports = {
   "features": {
     "storyStoreV7": true
   },
-  viteFinal: (config, { configType}) => {
-    if(configType === 'PRODUCTION') {
-      config.base = "/react_storybook/"
+  viteFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/react_storybook/'
     }
 
     return config
